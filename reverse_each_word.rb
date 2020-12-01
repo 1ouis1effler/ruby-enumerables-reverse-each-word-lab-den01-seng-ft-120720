@@ -12,4 +12,4 @@ end
 
 def reverse_each_word(string)
   string = "Hello there, how are you?"
-  puts "string "
+  puts string: 
