@@ -1,7 +1,7 @@
 def reverse_each_word(string)
  reverse = ""
  index = 0 
- while index < string.length
+ while index < string.collect 
  reverse = string[index] + reverse
  index += 1 
  end
