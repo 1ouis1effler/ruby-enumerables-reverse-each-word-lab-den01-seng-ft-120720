@@ -1,9 +1,9 @@
 require 'pry'
 
 def reverse_each_word(string)
-  binding.pry
  string.split.collect do |str|
    str.reverse!
+   binding.pry 
  end.join(' ')
 end 
 
