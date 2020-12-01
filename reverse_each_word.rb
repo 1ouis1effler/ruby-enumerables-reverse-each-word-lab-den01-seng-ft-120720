@@ -1,12 +1,6 @@
 def reverse_each_word(string)
- reverse = ""
- index = 0 
- while index < string.length
- reverse += string[index]
- index += 1 
- end
- return reverse
- end 
+ new_string = [ ]
+ string.collect
  
  
  
